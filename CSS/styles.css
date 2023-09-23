@@ -1,0 +1,62 @@
+.top{
+    background: #f60080;
+    display: flex;
+}
+
+.logo-top{
+    width: 20%;
+}
+
+.logo-top > a > img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin-left: 1.5rem;
+}
+
+.search{
+    text-align: center;
+    padding: 2rem;
+}
+
+.lista-links{
+    list-style: none;
+    display: flex;
+    width: auto;
+}
+
+.menu-top{
+    list-style: none;
+    display: flex;
+}
+
+.menu-top > li{
+    margin: .5rem;
+}
+
+.menu-top > li {
+    margin-top: 2.5rem;
+}
+
+.menu-top-derecho{
+    padding: 2.5rem;
+    display: flex;
+    width: 50%;
+}
+
+.menu-top-derecho > input{
+    margin-right: 0.5rem;
+}
+
+.menu-top-derecho > button{
+    margin-right: 0.5rem;
+}
+
+.top-center{
+    width: 30%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
